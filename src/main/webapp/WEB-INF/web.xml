@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+         version="5.0">
+
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>com.example.proyecto_farmachip.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ChipServlet</servlet-name>
+        <servlet-class>com.example.proyecto_farmachip.ChipServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ChipServlet</servlet-name>
+        <url-pattern>/ChipServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>PacienteServlet</servlet-name>
+        <servlet-class>com.example.proyecto_farmachip.PacienteServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PacienteServlet</servlet-name>
+        <url-pattern>/PacienteServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ServetMedicinas</servlet-name>
+        <servlet-class>com.example.proyecto_farmachip.ServletMedicinas</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServetMedicinas</servlet-name>
+        <url-pattern>/ServetMedicinas</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Release</servlet-name>
+        <servlet-class>com.example.proyecto_farmachip.Release</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Release</servlet-name>
+        <url-pattern>/Release</url-pattern>
+    </servlet-mapping>
+</web-app>
